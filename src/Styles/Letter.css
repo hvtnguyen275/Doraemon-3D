@@ -1,0 +1,41 @@
+/*Color code
+#51a1c4
+#e8eaea
+#b13f54
+#ddb551
+#706948
+*/
+body {
+  /* background-color: #51a1c4; */
+}
+
+.letterTitle {
+  color: #ddb551;
+  font-weight: 900;
+  text-align: center;
+  /* text-shadow:
+    2px 0 #fff,
+    -2px 0 #fff,
+    0 2px #fff,
+    0 -2px #fff,
+    1px 1px #fff,
+    -1px -1px #fff,
+    1px -1px #fff,
+    -1px 1px #fff; */
+  font-size: 30pt;
+  font-family: 'Cookie', cursive !important;
+}
+
+@media only screen and (max-width: 414px) {
+  .letterTitle {
+    font-size: 20pt;
+  }
+}
+
+.content {
+  font-weight: 400;
+  color: #51a1c4;
+  line-height: 40px;
+  font-size: 14pt;
+  text-align: justify;
+}

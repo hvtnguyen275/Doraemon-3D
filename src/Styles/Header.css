@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
+/*Color code
+#51a1c4
+#e8eaea
+#b13f54
+#ddb551
+#706948
+*/
+
+* {
+  font-family: 'Merriweather', serif !important;
+}
+.typo {
+  font-family: 'Cherry Bomb One', cursive !important;
+  padding-left: 8px;
+  text-transform: initial;
+  color: #007bb8;
+  font-size: 14pt;
+}
+
+.doraemonImg {
+  width: 50px;
+}
+
+@media only screen and (max-width: 414px) {
+  .buttonDoraemon {
+    display: flex !important;
+    justify-content: center;
+  }
+}
